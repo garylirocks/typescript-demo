@@ -8,7 +8,8 @@
     "target": "es5", // specify ECMAScript target version
     "allowJs": true, // allow a partial TypeScript and JavaScript codebase
     "noImplicitAny": true, // disallow implicit any type
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node"
   },
   "include": ["./src/"]
 }
